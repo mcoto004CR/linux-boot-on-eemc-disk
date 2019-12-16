@@ -1,12 +1,14 @@
-# linux-boot-on-eemc-disk
+# Elementary Linux - Boot on Ideapad with eemc disk
 How to boot elementary OS on Lenovo ideapad with eemc disk
 
 
 I purchased new a Lenovo Ideapad 110s sold with pre-installed Windows 10. After finding the Windows 10 and Lenovo software took about 27 Gb of the 32 Gb SSD, and "important" Windows 10 updates wouldn't download owing to lack of disk space, obviously the unit was only set up for people short on ideas and no wish to update.
-So dumping Windows 10 altogether I installed Linux Mint 19 Xfce from an external USB-connected DVD drive. Installation seemed smooth, but the Ideapad wouldn't reboot.
-After some digging on this and Ubuntu forums I've just successfully reinstalled the Xfce with the following settings in BIOS:
+
+So dumping Windows 10 altogether I installed Elementary OS from an external USB-connected drive. Installation seemed smooth, but the Ideapad wouldn't reboot, it got stuck on lenovo boot manager with two options, windows boot or emc boot.
+
+So after hours of researching on the web I've just successfully reinstalled Elementary OS with the following settings in BIOS:
    
-    CONFIGURATION:
+    ###CONFIGURATION:
     USB Legacy - Enabled
     Wireless - Enabled
     Hotkey Mode - Not relevant
