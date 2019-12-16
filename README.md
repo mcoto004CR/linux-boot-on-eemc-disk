@@ -8,17 +8,17 @@ So dumping Windows 10 altogether I installed Elementary OS from an external USB-
 
 So after hours of researching on the web I've just successfully reinstalled Elementary OS with the following settings in BIOS:
    
-    ###CONFIGURATION:
+    -- CONFIGURATION --:
     USB Legacy - Enabled
     Wireless - Enabled
     Hotkey Mode - Not relevant
     Intel Virtual Technology - Enabled
     BIOS Flash Back - Disabled
     
-    SECURITY:
+    --SECURITY ---:
     Intel Trust Platform Technology - Disabled
     
-    BOOT:
+    -- BOOT:
     Boot Mode - Legacy Support
     Boot Priority - UEFI First
     USB Boot - Enabled
