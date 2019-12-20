@@ -28,3 +28,6 @@ So after hours of researching on the web I've just successfully reinstalled Elem
     OS Optimized Defaults - Disabled
 
 I installed this time without using the wi-fi (to speed up installation). Rebooting worked fine, I've now connected the wi-fi and downloaded updates. Less than 30% of the SSD is used by the current setup.
+
+## if you get MODSIGN cannot find ueif db modify grub
+Add the grub arguments noapic noacpi nosplash in place of quiet splash. noapic and noacpi are kernel boot options. ACPI stands for Advanced Configuration and Power Interface and APIC stands for Advanced Programmable Interrupt Controller.
